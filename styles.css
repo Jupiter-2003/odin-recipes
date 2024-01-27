@@ -1,7 +1,7 @@
 h1{
     background-color: purple;
     color: white;
-    font-size: 36px;
+    font-size: 38px;
 }
 .index_page{
     background-color: brown;
@@ -11,11 +11,16 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
-h2, .bigger{
-    font-size: 24px;
-}
-h1, h2{
+div.goback{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+h2, .bigger{
+    font-size: 30px;
+}
+h1, h2, .bigger{
+    font-family: fantasy;
     font-weight: bold;
     text-align: center;
 }
