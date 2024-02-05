@@ -1,3 +1,4 @@
+
 h1{
     background-color: purple;
     color: white;
@@ -5,6 +6,11 @@ h1{
 }
 .index_page{
     background-color: brown;
+    display: block;
+    width: 250px;
+    border: 2px solid black;
+    margin: 24px auto;
+    padding: 12px;
 }
 .center{
     display: block;
@@ -27,4 +33,15 @@ h1, h2, .bigger{
 p, ul, ol{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+.main_page .center,.main_page .bigger{
+    display: inline-block;
+    margin: 12px;
+}
+div.main_page{
+    display: block;
+    width: 750px;
+    border: 5px solid black;
+    border-style: dotted;
+    margin: 24px auto;
 }
