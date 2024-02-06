@@ -28,7 +28,7 @@ h2, .bigger{
     font-size: 30px;
 }
 h1, h2, .bigger{
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
 }
